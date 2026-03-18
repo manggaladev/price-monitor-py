@@ -227,7 +227,7 @@ class TelegramNotifier:
 
 
 # Global notifier instance
-notifier = TelegramNotifier()
+telegram_notifier = TelegramNotifier()
 
 
 def send_telegram_message(text: str) -> bool:
@@ -240,7 +240,7 @@ def send_telegram_message(text: str) -> bool:
     Returns:
         True if sent successfully
     """
-    return notifier.send_message(text)
+    return telegram_notifier.send_message(text)
 
 
 def send_price_alert(
@@ -265,7 +265,7 @@ def send_price_alert(
     Returns:
         True if sent successfully
     """
-    return notifier.send_price_alert(
+    return telegram_notifier.send_price_alert(
         product_name=product_name,
         current_price=current_price,
         target_price=target_price,

@@ -4,7 +4,7 @@ Notification services for price monitoring.
 
 from price_monitor.notifier.telegram import (
     TelegramNotifier,
-    notifier as telegram_notifier,
+    telegram_notifier,
     send_price_alert,
     send_telegram_message,
 )
