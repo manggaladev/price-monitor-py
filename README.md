@@ -303,10 +303,5 @@ docker run -d \
 
 MIT License - see [LICENSE](LICENSE) file.
 
-## Author
-
-[manggaladev](https://github.com/manggaladev)
-
----
 
 **Happy price hunting!** 🎯💰
