@@ -28,7 +28,6 @@
 
 ```bash
 # Clone
-git clone https://github.com/manggaladev/price-monitor-py.git
 cd price-monitor-py
 
 # Install
@@ -208,7 +207,6 @@ Contributions welcome! Add more sites, improve scrapers.
 
 **[⬆ Back to Top](#-price-monitor)**
 
-Made with ❤️ by [manggaladev](https://github.com/manggaladev)
 
 **Never miss a price drop again! 💰**
 
